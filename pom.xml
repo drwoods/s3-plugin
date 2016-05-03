@@ -15,12 +15,12 @@
     <parent>
         <groupId>org.jenkins-ci.plugins</groupId>
         <artifactId>plugin</artifactId>
-        <version>1.609.3</version>
+        <version>1.642</version>
     </parent>
 
     <artifactId>s3</artifactId>
     <packaging>hpi</packaging>
-    <version>0.10.2-SNAPSHOT</version>
+    <version>0.10.1.SAS</version>
     <name>Jenkins S3 publisher plugin</name>
     <url>https://wiki.jenkins-ci.org/display/JENKINS/S3+Plugin</url>
 
@@ -66,7 +66,7 @@
         <dependency>
             <groupId>org.jenkins-ci.plugins</groupId>
             <artifactId>aws-java-sdk</artifactId>
-            <version>1.10.71-SNAPSHOT</version>
+            <version>1.10.74.SAS</version>
         </dependency>
         <dependency>
             <groupId>org.jenkins-ci.plugins</groupId>
